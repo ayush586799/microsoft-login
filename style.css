@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 219, 211);
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi",
+    "Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota",
+    "Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa",
+    "Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti",
+    "Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+/* Start login */
+
+.microsoft{
+    height: 52vh;
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-section{
+    height: 47vh;
+    width: 400px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: -1px -2px 19px 0px rgba(184,180,184,1);
+}
+.login-section img{
+    width: 110px;
+}
+.login-section p:nth-child(2){
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    margin-top: 10px;
+    color: #1b1b1b;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.login-section input{
+    width: 100%;
+    border-color: #666;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid#666;
+    font-size: 0.9rem;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi",
+    "Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota",
+    "Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa",
+    "Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti",
+    "Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+.login-section p:nth-child(4){
+    font-size: 12px;
+    margin-top: 15px;
+    color: #1b1b1b;
+    margin-bottom: 15px;
+}
+.login-section p a{
+    color: #0067b8;
+}
+
+.login-section a{
+    text-decoration: none;
+}
+.login-section a:nth-child(5){
+    color: #0067b8;
+    font-size: 12px;
+}
+.login-section div button{
+    font-size: 14px;
+    color: white;
+    background-color: #0067b8;
+    border: none;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 25px;
+}
+
+/* Start Sign-in */
+
+.sign-in{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.sign-in .sec{
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    box-shadow: -1px -2px 19px 0px rgba(184,180,184,1);
+}
+.sign-in .sec img{
+    height: 22px;
+    margin-top: -10px;
+}
+.sign-in .sec p{
+    margin: -10px 0px 0px 12px;
+    font-size: 14px;
+    color: rgb(80, 79, 79);
+}
